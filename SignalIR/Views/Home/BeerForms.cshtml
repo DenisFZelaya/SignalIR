@@ -1,0 +1,7 @@
+﻿@model SignalIR.Models.Beer
+
+<form asp-controller="Home" asp-action="AddBeer" method="post">
+    Nombre: <input asp-for="Name" type="text"/><br />
+    Marcar: <input asp-for="Brand" type="text"/><br />
+    <button type="submit">Enviar</button>
+</form>
